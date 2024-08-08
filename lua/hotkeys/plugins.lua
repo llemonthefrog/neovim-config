@@ -1,3 +1,5 @@
+require("hotkeys/alias")
+
 on_attach = function(_, bufnr)
 	local map = function (keys, func)
 		vim.keymap.set("n", keys, func, {buffer = bufnr})
@@ -22,3 +24,6 @@ on_attach = function(_, bufnr)
 	--end, {})
 
 end
+
+nm("<C-q>", ":Neotree filesystem close left<CR>")
+nm("<C-n>", ":Neotree filesystem reveal left<CR>")

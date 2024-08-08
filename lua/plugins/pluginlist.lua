@@ -7,6 +7,7 @@ require("plugins/configs/masonConf")
 require("plugins/configs/teleConf")
 require("plugins/configs/treeConf")
 require("plugins/configs/neoTreeConf")
+require("plugins/configs/alphaConf")
 
 return {
 		colorSch,
@@ -21,5 +22,6 @@ return {
 		Mason,
 		tele,
 		tree,
-		nTree
+	  nTree,
+	  alph
 }
