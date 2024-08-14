@@ -8,20 +8,23 @@ require("plugins/configs/teleConf")
 require("plugins/configs/treeConf")
 require("plugins/configs/neoTreeConf")
 require("plugins/configs/alphaConf")
+require("plugins/configs/luaSnp")
 
 return {
 		colorSch,
 		icons,
 		line,
 		codeComplition,
+		snip,
 
 		"neovim/nvim-lspconfig",
 		"williamboman/mason-lspconfig.nvim",
 		"folke/neodev.nvim",
+		"ThePrimeagen/vim-be-good",
 
 		Mason,
 		tele,
 		tree,
-	  nTree,
-	  alph
+	  	nTree,
+	  	alph
 }
